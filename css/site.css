@@ -1,0 +1,113 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+body {
+    background: #FFF;
+}
+.main_minw {
+    min-width: 476px;
+}
+nav {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+    height: 41px;
+    margin-top: 10px;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li {
+    display: block;
+    margin-right: 5px;
+    float: left;
+}
+nav ul li a {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+nav ul li a:hover {
+    transition-duration: 0.3s;
+    color: #51804c;
+    text-decoration: none;
+    border-bottom: 3px solid #51804c
+}
+#reset {
+    clear: both;
+}
+#slider {
+    background: url("../images/polp1.png") no-repeat #2ca758;
+    background-position: center center;
+    height: 400px;
+}
+#slider #scontent {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#slider #scontent #box {
+    padding-top: 50px;
+    max-width: 500px;
+}
+#slider #scontent #box #boxbg h1 {
+    color: #FFF;
+    font-size: 60px;
+    margin: 0px;
+    font-weight: bold;
+}
+#slider #scontent #box #boxbg p {
+    font-size: 16px;
+    color:#FFF;
+    padding: 5px;
+    border-radius: 5px;
+}
+#slider #scontent #box #boxbg  {
+    font-family: 'Quicksand', sans-serif;
+    height: 300px;
+    border-radius: 5px;
+    padding: 20px;
+}
+#mcbackground {
+    background: url("../images/background1.png") no-repeat;
+    background-position: center top;
+}
+#main_content {
+    max-width: 1030px;
+    margin: 0 auto;
+}
+#main_content #recomended-videos {
+    padding: 5px;
+}
+#main_content #recomended-videos h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#main_content #recomended-videos #preview {
+    width: 250px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+#main_content #recomended-videos #preview h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#main_content #recomended-videos #preview p {
+
+}
+#main_content #recomended-videos #info {
+    float: left;
+    width: 200px;
+    padding: 5px;
+}
+#main_content #homecont #xat {
+    float: left;
+}
